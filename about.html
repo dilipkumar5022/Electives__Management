@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('./gmrit.png');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            height: 100vh;
+            overflow: hidden;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 10px 20px;
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+        .navbar a:hover {
+            text-decoration: underline;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .main-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            padding: 20px;
+        }
+        .about-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            max-width: 800px;
+            text-align: center;
+        }
+        .about-container h1 {
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+        .about-container p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        .team-members {
+            font-size: 20px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        .about-container button {
+            background-color: #FFCC00;
+            color: black;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, border-radius 0.3s ease;
+            margin-top: 20px;
+        }
+        .about-container button:hover {
+            background-color: #FFD700;
+            border-radius: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo" onclick="window.location.href='index.html'">GMRIT</div>
+        <div>
+            <a href="index.html">Home</a>
+            <a href="department.html">Department</a>
+            <a href="courses.html">Courses</a>
+            <a href="about.html">About Us</a>
+
+            <a href="teacher_login.html">Teacher Login</a>
+        </div>
+    </div>
+    <div class="main-container">
+        <div class="about-container">
+            <h1>About Our Project</h1>
+            <p>We participated in a 12-hour hackathon at GMRIT College and successfully developed an elective course selection website. This platform allows students to select courses from other departments, enabling them to explore different fields and enhance their knowledge.</p>
+            <p>Our project is aimed at making course selection easier and more dynamic, ensuring that students have access to a wider range of learning opportunities.</p>
+            <div class="team-members">
+                <p>Team Members:</p>
+                <h3>Dilip Kumar, Pavan Kumar, Ganesware, Saketh</h3>
+            </div>
+            <button onclick="window.location.href='index.html'">Go to Home</button>
+        </div>
+    </div>
+</body>
+</html>
