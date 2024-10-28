@@ -18,6 +18,13 @@ Our web application allows college administrators to manage elective subjects di
 - **Frontend**: HTML, CSS, JavaScript
 - **Backend**: PHP
 - **Database**: MySQL
+## Team Members and Roles
+
+- **Ketha Dilip Kumar** - Front-end Developer
+- **Veesam Parasuram Pavan Teja** - Back-end Developer
+- **Gnaneshwar Aranepalli** - Back-end Developer
+- **Rejeti Saketh Ramacharyalu** - Front-end Developer
+
 
 ## Getting Started
 
