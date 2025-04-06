@@ -23,7 +23,7 @@ Our web application allows college administrators to manage elective subjects di
 - **Ketha Dilip Kumar** - Full Stack Developer
 - **Veesam Parasuram Pavan Teja** - Back-end Developer
 - **Gnaneswar Arnepalli** - Front-end Developer
-- **Rejeti Saketh Ramacharyalu** - Front-end Developer
+- **Rejeti Saketh Ramacharyalu** - Back-end Developer
 
 
 ## Getting Started
